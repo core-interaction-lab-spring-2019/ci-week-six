@@ -1,0 +1,16 @@
+body {
+	color: var(--secondary-color);
+	background-color: var(--primary-color);
+	font-size: 10px;
+}
+
+.container {
+	display: flex;
+	max-width: 1280px;
+	padding: 30px 20px;
+	margin: 0 auto;
+
+	&--small {
+		max-width: 900px;
+	}
+}
