@@ -5,4 +5,4 @@
 - Use flexbox & calc() to determine the width of each gallery item.
 - Use the 20 images provided as background images for your gallery.
 - Apply a grayscale CSS filter to the gallery thumbnails.
-
+Lilliana Checo
