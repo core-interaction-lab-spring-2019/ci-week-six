@@ -1,4 +1,146 @@
 .gallery {
-	//gallery CSS goes here
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 
+&__item {
+	width: calc(25% - 12px);
+	background-color: var(--tertiary-color);
+	margin-bottom: 13px;
+	
+	&:nth-child(1) {
+		background-image: url("../images/01.jpg");
+		position: center;
+		background-size: 100%;
+		filter: blur(35px);
+	}
+
+	&:nth-child(2) {
+		background-image: url("../images/02.jpg");
+		position: center;
+		background-size: 100%;
+		filter: contrast(200%);
+	}
+
+	&:nth-child(3) {
+		background-image: url("../images/03.jpg");
+		position: center;
+		background-size: 100%;
+		filter: drop-shadow(8px 8px 8px 8px white);
+	}
+
+	&:nth-child(4) {
+		background-image: url("../images/04.jpg");
+		position: center;
+		background-size: 100%;
+		filter: grayscale(50%);
+	}
+
+	&:nth-child(5) {
+		background-image: url("../images/05.jpg");
+		position: center;
+		background-size: 100%;
+		filter: hue-rotate(90deg);
+	}
+
+	&:nth-child(6) {
+		background-image: url("../images/06.jpg");
+		position: center;
+		background-size: 100%;
+		filter: invert(100%)
+	}
+
+	&:nth-child(7) {
+		background-image: url("../images/07.jpg");
+		position: center;
+		background-size: 100%;
+		filter: opacity(20%);
+	}
+
+	&:nth-child(8) {
+		background-image: url("../images/08.jpg");
+		position: center;
+		background-size: 100%;
+		filter: saturate(800%);
+	}
+
+	&:nth-child(9) {
+		background-image: url("../images/09.jpg");
+		position: center;
+		background-size: 100%;
+		filter: sepia(100%);
+	}
+
+	&:nth-child(10) {
+		background-image: url("../images/10.jpg");
+		position: center;
+		background-size: 100%;
+		filter: grayscale(100%) blur(20px);
+	}
+
+	&:nth-child(11) {
+		background-image: url("../images/11.jpg");
+		position: center;
+		background-size: 100%;
+		filter: sepia(50%) 
+	}
+
+	&:nth-child(12) {
+		background-image: url("../images/12.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(13) {
+		background-image: url("../images/13.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(14) {
+		background-image: url("../images/14.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(15) {
+		background-image: url("../images/15.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(16) {
+		background-image: url("../images/16.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(17) {
+		background-image: url("../images/17.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(18) {
+		background-image: url("../images/18.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(19) {
+		background-image: url("../images/19.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	&:nth-child(20) {
+		background-image: url("../images/20.jpg");
+		position: center;
+		background-size: 100%;
+	}
+
+	div {
+		padding-bottom: 56.25%;
+	}
+}
 }
