@@ -6,10 +6,17 @@
 		width: calc(25% - 12px);
 		flex: 0 0 auto;
 		margin-bottom: 13px;
-		background-size: cover;
+		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
 		filter: grayscale(100%);
+		transition: filter .2s ease-in-out, background-size .2s ease-in-out;
+		overflow: hidden;
+
+		&:hover {
+			filter: grayscale(0);
+			background-size: 102%;
+		}
 
 		&:nth-child(1) {
 			background-image: url(../images/01.jpg);
