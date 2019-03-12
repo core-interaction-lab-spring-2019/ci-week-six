@@ -2,42 +2,66 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	background-color: var(--gallery-color);
 
-	&__item{
+	&__item {
 		width: calc(25% - 12px);
+		background-size: 100%;
+		transition: all .2s ease-in-out;
 		background-color: var(--tertiary-color);
 		background-position: center;
 		margin-bottom: 13px;
 		filter: saturate(100%);
-		
+		cursor: pointer;
+
 		&:nth-child(1) {
 			background-image: url("../images/01.jpg");
 			filter: grayscale(5%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(2) {
 			background-image: url("../images/02.jpg");
 			filter: grayscale(10%);
 			background-size: 110%;
+
+			&:hover {
+				background-size: 114%;
+			}
 		}
 
 		&:nth-child(3) {
 			background-image: url("../images/03.jpeg");
 			filter: grayscale(15%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 		
 		&:nth-child(4) {
 			background-image: url("../images/04.jpg");
 			filter: grayscale(20%);
 			background-size: 106%;
-		}
 
+			&:hover {
+				background-size: 110%;
+			}
+		}
+		
 		&:nth-child(5) {
 			background-image: url("../images/05.jpg");
 			filter: grayscale(25%);
 			background-size: 106%;
+
+			&:hover {
+				background-size: 110%;
+			}
 		}
 
 		&:nth-child(6) {
@@ -45,12 +69,20 @@
 			background-position: 67% 37%;
 			filter: grayscale(30%);
 			background-size: 120%;
+
+			&:hover {
+				background-size: 124%;
+			}
 		}
 
 		&:nth-child(7) {
 			background-image: url("../images/07.jpg");
 			filter: grayscale(35%);
 			background-size: 105%;
+
+			&:hover {
+				background-size: 109%;
+			}
 		}
 
 		&:nth-child(8) {
@@ -58,12 +90,21 @@
 			background-position: 0% 70%;
 			filter: grayscale(40%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
+
 		}
 
 		&:nth-child(9) {
 			background-image: url("../images/09.jpg");
 			filter: grayscale(45%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(10) {
@@ -71,18 +112,30 @@
 			filter: grayscale(50%);
 			background-position: 0% 45%;
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(11) {
 			background-image: url("../images/11.jpg");
 			filter: grayscale(55%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(12) {
 			background-image: url("../images/12.jpg");
 			filter: grayscale(60%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(13) {
@@ -90,6 +143,10 @@
 			filter: grayscale(65%);
 			background-position: 0% 60%;
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(14) {
@@ -97,30 +154,50 @@
 			filter: grayscale(70%);			
 			background-position: 0% 70%;
 			background-size: 105%;
+
+			&:hover {
+				background-size: 109%;
+			}
 		}
 
 		&:nth-child(15) {
 			background-image: url("../images/15.jpg");
 			filter: grayscale(75%);
 			background-size: 105%;
+
+			&:hover {
+				background-size: 109%;
+			}
 		}
 
 		&:nth-child(16) {
 			background-image: url("../images/16.jpg");
 			filter: grayscale(80%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(17) {
 			background-image: url("../images/17.jpg");
 			filter: grayscale(85%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(18) {
 			background-image: url("../images/18.jpg");
 			filter: grayscale(90%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(19) {
@@ -128,15 +205,24 @@
 			background-position: 0% 30%;
 			filter: grayscale(95%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 
 		&:nth-child(20) {
 			background-image: url("../images/20.jpg");
 			filter: grayscale(100%);
 			background-size: 100%;
+
+			&:hover {
+				background-size: 104%;
+			}
 		}
 		div{
 			padding-bottom: 56.25%;
 		}
+
 	}
 }

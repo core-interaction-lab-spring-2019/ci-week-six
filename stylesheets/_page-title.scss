@@ -1,7 +1,9 @@
 .page-title {
-	font-size: 6.8em;
+	font-size: 10em;
 	font-family: var(--title-font);
 	position: relative;
+	margin-left: 0px;
+	margin-bottom: -10px;
 
 	&:before {
 		position: absolute;
@@ -9,7 +11,7 @@
 		bottom: 3px;
 		height: 18px;
 		width: 100%;
-		background-color: var(--tertiary-color);
+		background-color: var(--main-color);
 		content: '';
 		z-index: -1;
 	}

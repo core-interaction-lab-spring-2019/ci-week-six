@@ -1,0 +1,13 @@
+@mixin oneimage {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin twoimages {
+    @media (min-width: 501px) and (max-width: 850px) {
+        @content;
+    }
+}
+
+
