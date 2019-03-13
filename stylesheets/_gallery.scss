@@ -7,6 +7,12 @@
 		width: calc(25% - 12px);
 		background-color: var(--tertiary-color);
 		margin-bottom: 13px;
+		cursor: pointer;
+		filter: grayscale(1);
+
+		&:hover {
+			filter:grayscale(0);
+		}
 
 		&:nth-child(1) {
 			background-image: url("../images/cat1.jpg");
@@ -99,31 +105,31 @@
 		}
 
 		&:nth-child(16) {
-			background-image: url("../images/16.jpg");
+			background-image: url("../images/cat6.jpg");
 			background-position: center;
 			background-size: 100%;
 		}
 
 		&:nth-child(17) {
-			background-image: url("../images/17.jpg");
+			background-image: url("../images/cat7.jpg");
 			background-position: center;
 			background-size: 100%;
 		}
 
 		&:nth-child(18) {
-			background-image: url("../images/18.jpg");
+			background-image: url("../images/cat8.jpg");
 			background-position: center;
 			background-size: 100%;
 		}
 
 		&:nth-child(19) {
-			background-image: url("../images/19.jpg");
+			background-image: url("../images/cat9.jpg");
 			background-position: center;
 			background-size: 100%;
 		}
 
 		&:nth-child(20) {
-			background-image: url("../images/20.jpg");
+			background-image: url("../images/dogs.jpg");
 			background-position: center;
 			background-size: 100%;
 		}
