@@ -1,0 +1,24 @@
+@media only screen and (max-width: 850px) {
+    div.gallery.container {
+        padding: 0;
+        justify-content: center;
+    }
+    
+    a.gallery__item {
+        width: 35%;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    a.gallery__item {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+}
