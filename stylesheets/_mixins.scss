@@ -1,0 +1,11 @@
+@mixin unaimage {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin dosimages {
+    @media (min-width: 501px) and (max-width: 850px) {
+        @content;
+    }
+}
