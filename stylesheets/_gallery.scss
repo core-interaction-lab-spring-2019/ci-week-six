@@ -10,8 +10,9 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		filter: grayscale(100%);
-		transition: filter .2s ease-in-out, background-size .2s ease-in-out;
+		transition: all .2s ease-in-out;
 		overflow: hidden;
+		cursor: pointer;
 
 		&:hover {
 			filter: grayscale(0);
