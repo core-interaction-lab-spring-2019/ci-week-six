@@ -42,6 +42,7 @@
 		width: 3px;
 		height: 30px;
 		background-color: var(--secondary-color);
+		transition: background-color .2s ease-in-out;
 	}
 
 	&:before {
@@ -50,6 +51,14 @@
 
 	&:after {
 		transform: rotate(-45deg);
+	}
+
+	&:hover {
+
+		&:before,
+		&:after {
+			background-color: var(--tertiary-color);
+		}
 	}
 }
 
@@ -69,6 +78,15 @@
 		height: 20px;
 		width: 3px;
 		background-color: var(--secondary-color);
+		transition: background-color .2s ease-in-out;
+	}
+
+	&:hover {
+
+		&:before,
+		&:after {
+			background-color: var(--tertiary-color);
+		}
 	}
 
 	&.no-link {
