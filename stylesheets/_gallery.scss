@@ -6,8 +6,28 @@ justify-content:space-between;
 
 &__item{
 	width: calc(25% - 12px);
-	background-color: var(--tertiary-color);
-	margin-bottom:13px;
+	flex: 0 0 auto;
+	margin-bottom: 13px;
+	background: size 100%;
+	background-repeat: no-repeat;
+	background-position:center;
+	filter:grayscale(100%);
+	transition:all .2s ease-in-out , background-size .2s ease-in-out;
+	overflow:hidden;
+	cursor:pointer;
+
+	@include tablet {
+		width: calc(50% - 6px);
+	}
+	@include mobile{
+		width: 100%;
+
+	}
+
+	&:hover{
+		filter:grayscale(0);
+		background-size:102%;
+	}
 
 	&:nth-child(1){
 		background-image:url("../images/01.jpg");
