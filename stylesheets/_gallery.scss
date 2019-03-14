@@ -11,8 +11,23 @@ justify-content: space-between;
   margin-bottom: 13px;
   background-position: center;
   background-size: cover;
-  -webkit-filter: grayscale(100%); 
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+
+@include tablet {
+  width: calc(50% - 6px);
+}
+
+@include mobile {
+  width: 100%;
+}
+
+&:hover{
+  filter: grayscale(0);
+  background-size: 102%;
+}
 
     &:nth-child(1) {
       background-image: url("../images/01.jpg");
