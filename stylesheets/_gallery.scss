@@ -14,6 +14,14 @@
 		overflow: hidden;
 		cursor: pointer;
 
+		@include tablet {
+			width: calc(50% - 6px);
+		}
+
+		@include mobile {
+			width: 100%;
+		}
+
 		&:hover {
 			filter: grayscale(0);
 			background-size: 102%;
