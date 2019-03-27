@@ -1,13 +1,14 @@
 .page-title {
-	font-size: 6.8em;
+	font-size: 7em;
 	font-family: var(--title-font);
 	position: relative;
+	margin-top: 9vmin;
 
 	&:before {
 		position: absolute;
 		left: 0;
 		bottom: 3px;
-		height: 18px;
+		height: 16px;
 		width: 100%;
 		background-color: var(--tertiary-color);
 		content: '';
