@@ -1,1 +1,26 @@
-@mediaquery 
+@media only screen and (max-width: 850px) {
+    //two per row
+    div.gallery.container {
+        padding: 0;
+        justify-content: center;
+    }
+
+	a.gallery__item {
+        width: 35%;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 600px;
+		margin: 20px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+    // one per row
+	a.gallery__item {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 600px;
+		margin: 20px;
+	}	
+}

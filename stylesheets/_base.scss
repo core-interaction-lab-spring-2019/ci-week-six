@@ -14,3 +14,59 @@ body {
 		max-width: 900px;
 	}
 }
+
+.next-button,
+.prev-button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    &:before,
+    &:after{
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 20px;
+        background-color: var(--secondary-color);
+    }
+
+    &.no-link {
+        opacity: .2;
+        pointer-events: none;
+    }
+
+}
+
+.next-button{
+    right: 10px;
+
+    &:before{
+        transform: rotate(45deg);
+        right: 15px;
+        top: 12px;
+    }
+
+    &:after{
+        transform: rotate(-45deg);
+        right: 15px;
+        top: 0;
+    }
+}
+.prev-button{
+    left: 10px;
+
+    &:before{
+        transform: rotate(-45deg);
+        right: 15px;
+        top: 12px;
+    }
+
+    &:after{
+        transform: rotate(45deg);
+        right: 15px;
+        top: 0;
+    }
+}
