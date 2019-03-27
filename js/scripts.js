@@ -11,7 +11,7 @@ $prev_button = $('.prev-button');
 $thumbnail.click(function() {
     $current_image = $(this);
 
- img_src = $(this).attr('data-href');
+    img_src = $(this).attr('data-href');
  
  //add the next and previous images urls to the buttons data-href
  //check to see if there is a previous or next image
