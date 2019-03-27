@@ -12,6 +12,14 @@
 	background-size: 100%;
 	filter: grayscale(100%);
 
+	@include tablet {
+		width: calc(50% - 6px);
+	}
+
+	@include mobile {
+		width: 100%;
+	}
+
 	&:hover {
 		filter: grayscale(0);
 		background-size: 102%;
