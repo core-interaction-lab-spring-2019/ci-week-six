@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --primary-color: #003D56;
+  --secondary-color: #FFF3DB;
+  --tertiary-color: #5DFF5D;
+  --title-font: "Franklin Gothic", monospace;
+  --copy-font: "Franklin Gothic", sans-serif;
+}
+
+body {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  font-size: 10px;
+}
+
+.container {
+  display: flex;
+  max-width: 1280px;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+.container--small {
+  max-width: 900px;
+}
+
+.page-title {
+  font-size: 6.8em;
+  font-family: var(--title-font);
+  position: relative;
+}
+.page-title:before {
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  height: 18px;
+  width: 100%;
+  background-color: var(--tertiary-color);
+  content: "";
+  z-index: -1;
+}
+
+.description {
+  font-size: 3.2em;
+  font-family: var(--copy-font);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery__item {
+  width: calc(25% - 12px);
+  background-color: var(--tertiary-color);
+  margin-bottom: 12px;
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+@media (max-width: 850px) {
+  .gallery__item {
+    width: calc(50% - 6px);
+  }
+}
+@media (max-width: 500px) {
+  .gallery__item {
+    width: 100%;
+  }
+}
+.gallery__item:hover {
+  filter: grayscale(0);
+  background-size: 102%;
+}
+.gallery__item:nth-child(1) {
+  background-image: url("../images/img01.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(2) {
+  background-image: url("../images/img02.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(3) {
+  background-image: url("../images/img03.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(4) {
+  background-image: url("../images/img04.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(5) {
+  background-image: url("../images/img05.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(6) {
+  background-image: url("../images/img06.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(7) {
+  background-image: url("../images/img01.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(8) {
+  background-image: url("../images/img02.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(9) {
+  background-image: url("../images/img03.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(10) {
+  background-image: url("../images/img04.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(11) {
+  background-image: url("../images/img05.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(12) {
+  background-image: url("../images/img06.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(13) {
+  background-image: url("../images/img01.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(14) {
+  background-image: url("../images/img02.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(15) {
+  background-image: url("../images/img03.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(16) {
+  background-image: url("../images/img04.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(17) {
+  background-image: url("../images/img05.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(18) {
+  background-image: url("../images/img06.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(19) {
+  background-image: url("../images/img01.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item:nth-child(20) {
+  background-image: url("../images/img02.jpg");
+  position: center;
+  background-size: 100%;
+}
+.gallery__item div {
+  padding-bottom: 56.25%;
+}
+
+.modal {
+  opacity: 0;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+.modal--open {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal__image {
+  position: absolute;
+  width: 90%;
+  width: calc(100% - 80px);
+  max-width: 900px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.modal-close:before, .modal-close:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 3px;
+  height: 30px;
+  background-color: var(--secondary-color);
+}
+.modal-close:before {
+  transform: rotate(45deg);
+}
+.modal-close:after {
+  transform: rotate(-45deg);
+}
+
+.next-button,
+.prev-button {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+.next-button:before, .next-button:after,
+.prev-button:before,
+.prev-button:after {
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 20px;
+  background-color: var(--secondary-color);
+}
+.next-button.no-link,
+.prev-button.no-link {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.next-button {
+  right: 10px;
+}
+.next-button:before {
+  transform: rotate(45deg);
+  right: 15px;
+  top: 12px;
+}
+.next-button:after {
+  transform: rotate(-45deg);
+  right: 15px;
+  top: 0;
+}
+
+.prev-button {
+  left: 10px;
+}
+.prev-button:before {
+  transform: rotate(-45deg);
+  right: 15px;
+  top: 12px;
+}
+.prev-button:after {
+  transform: rotate(45deg);
+  right: 15px;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
