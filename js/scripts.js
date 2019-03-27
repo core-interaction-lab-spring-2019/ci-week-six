@@ -57,7 +57,7 @@ $(document).ready(function() {
     $prev_button.click(function() {
         img_src = $(this).attr('data-href');
         $modal_image.attr('src', img_src);
-        $current_image = $current_img.prev();
+        $current_image = $current_image.prev();
         img_next = $current_image.next().attr('data-href');
         img_prev = $current_image.prev().attr('data-href');
 
