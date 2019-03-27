@@ -78,7 +78,7 @@ $modal_close.click(function() {
     $modal.removeClass('modal--open');
     $modal_image.attr('src', '');
     $next_button.attr('data-href', '');
-    $prev_button.attr('data-href', '');
+    $previous_button.attr('data-href', '');
     $('.no-link').removeClass('no-link');
     
     });
