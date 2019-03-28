@@ -2,13 +2,16 @@
 	font-size: 6.8em;
 	font-family: var(--title-font);
 	position: relative;
+	color: black;
+	font-weight: bold;
+	
 
 	&:before {
 		position: absolute;
 		left: 0;
 		bottom: 3px;
-		height: 18px;
-		width: 100%;
+		height: 50px;
+		width: 200%;
 		background-color: var(--tertiary-color);
 		content: '';
 		z-index: -1;
