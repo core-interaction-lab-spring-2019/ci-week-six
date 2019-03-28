@@ -1,7 +1,11 @@
 .page-title {
+	left: 0;
+  right: 0;
+  margin: auto;
 	font-size: 6.8em;
-	font-family: var(--title-font);
+  font-family: 'Poiret One', cursive;
 	position: relative;
+	color: #0f2a54;
 
 	&:before {
 		position: absolute;
