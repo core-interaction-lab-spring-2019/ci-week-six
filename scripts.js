@@ -69,9 +69,9 @@ $(document).ready(function () {
 			$prev_button.addClass('no-link');
 			$prev_button.attr('data-href', '');
 		};
+	});
 
-		$modal_close.click(function () {
-			$modal.removeClass('modal--open');
-		});
+	$modal_close.click(function () {
+		$modal.removeClass('modal--open');
 	});
 });
