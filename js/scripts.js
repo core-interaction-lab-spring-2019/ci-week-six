@@ -69,9 +69,18 @@ $modal.addClass('modal--open');
       $prev_button.addClass('no-link');
       $prev_button.attr('data-href', '');
   };
+  });
 
   $modal_close.click(function(){
       $modal.removeClass('modal--open');
+      $modal_image.attr('src', '');
+
+      //remove the data-href values from the next and previous buttons
+      $next_button.attr('', '');
+      $prev_button.attr('', '');
+
+      //remove the 'no-link' class from the buttons
+      $next_button.removeClass('no-link');
+      $prev_button.removeClass('no-link');
   });
-});
 });
