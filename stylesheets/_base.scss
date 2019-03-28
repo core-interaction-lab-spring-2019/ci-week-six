@@ -1,9 +1,14 @@
 body {
-	color: var(--secondary-color);
-	background-color: var(--primary-color);
-	font-size: 10px;
-}
+	background-image: url("../images/glitch.gif");
+	background-size:cover;
 
+}
+h1{
+	color:white;
+}
+p{
+	color:white;
+}
 .container {
 	display: flex;
 	max-width: 1280px;
