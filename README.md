@@ -6,3 +6,4 @@
 - Use the 20 images provided as background images for your gallery.
 - Apply a grayscale CSS filter to the gallery thumbnails.
 
+# naturegalleries
