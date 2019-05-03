@@ -7,14 +7,5 @@
 	position: relative;
 	color: #0f2a54;
 
-	&:before {
-		position: absolute;
-		left: 0;
-		bottom: 3px;
-		height: 18px;
-		width: 100%;
-		background-color: var(--tertiary-color);
-		content: '';
-		z-index: -1;
-	}
+
 }

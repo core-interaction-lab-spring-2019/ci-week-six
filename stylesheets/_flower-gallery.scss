@@ -1,0 +1,121 @@
+// h2 {
+//   display: block;
+//   left: 0;
+//   right: 0;
+//   margin: auto;
+//   font-size: 3.2em;
+//   font-family: var(--copy-font);
+//   font-family: 'Poiret One', cursive;
+//   position: absolute;
+//   text-align: center;
+//   padding: 0px;
+//   color: #0f2a54;
+//   margin-top: 100px;
+// }
+
+.flower-gallery {
+  background-color: var(--tertiary-color);
+
+  .gallery__item {
+
+    &:nth-child(1) {
+      background-image: url("../images/41.jpg");
+
+    }
+
+    &:nth-child(2) {
+      background-image: url("../images/42.jpg");
+
+    }
+
+    &:nth-child(3) {
+      background-image: url("../images/43.jpg");
+
+    }
+
+    &:nth-child(4) {
+      background-image: url("../images/44.jpg");
+    }
+
+    &:nth-child(5) {
+      background-image: url("../images/45.jpg");
+
+    }
+
+    &:nth-child(6) {
+      background-image: url("../images/46.jpg");
+    }
+
+    &:nth-child(7) {
+      background-image: url("../images/47.jpg");
+    }
+
+    &:nth-child(8) {
+      background-image: url("../images/48.jpg");
+
+    }
+
+    &:nth-child(9) {
+      background-image: url("../images/49.jpg");
+
+    }
+
+    &:nth-child(10) {
+      background-image: url("../images/50.jpg");
+
+    }
+
+    &:nth-child(11) {
+      background-image: url("../images/51.jpg");
+
+    }
+
+    &:nth-child(12) {
+      background-image: url("../images/52.jpg");
+
+    }
+
+    &:nth-child(13) {
+      background-image: url("../images/53.jpg");
+
+    }
+
+    &:nth-child(14) {
+      background-image: url("../images/54.jpg");
+
+    }
+
+    &:nth-child(15) {
+      background-image: url("../images/55.jpg");
+
+    }
+
+    &:nth-child(16) {
+      background-image: url("../images/56.jpg");
+
+    }
+
+    &:nth-child(17) {
+      background-image: url("../images/57.jpg");
+
+    }
+
+    &:nth-child(18) {
+      background-image: url("../images/58.jpg");
+
+
+    }
+
+    &:nth-child(19) {
+      background-image: url("../images/59.jpg");
+
+
+    }
+
+    &:nth-child(20) {
+      background-image: url("../images/60.jpg");
+
+    }
+  }
+
+}

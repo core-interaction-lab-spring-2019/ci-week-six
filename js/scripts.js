@@ -7,6 +7,35 @@ $modal_close = $('.modal-close');
 $next_button = $('.next-button')
 $prev_button = $('.prev-button')
 
+
+// COPIED THIS FROM W3
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+/*document.getElementsByClassName('gallery__item').addEventListener('mouseover', function () {
+  console.log('hovered')
+})
+*/
+/*
+
+*/
+var class_list = document.getElementsByClassName('gallery__item')
+  window.addEventListener('keydown', function () {
+    for(var x of class_list){
+      x.style.filter = 'grayscale(0)'
+    }
+  });
+  window.addEventListener('keyup', function () {
+      for(var x of class_list){
+        x.style.filter = ''
+      }
+})
 $thumbnail.click(function () {
   $current_image = $(this);
   img_src = $(this).attr('data-href');
